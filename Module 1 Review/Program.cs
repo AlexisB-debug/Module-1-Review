@@ -6,8 +6,6 @@ class Program
 {
     static void Main(string[] args)
     {
-        // I assume the purpose of asking the user to select the shape was to call the method of the user's chosen shape.
-        
         Console.WriteLine("Please, select your shape!\nEnter circle, triangle, rectangle, or square.");
         string userInput = Console.ReadLine();
 
