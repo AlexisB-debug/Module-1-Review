@@ -6,7 +6,7 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Please, select your shape!\nEnter circle, triangle, rectangle, or square.");
+        Console.WriteLine("Please, select your shape!\nType circle, triangle, rectangle, or square.");
         string userInput = Console.ReadLine();
 
         if (userInput.ToLower() == "circle")
